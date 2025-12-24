@@ -19,8 +19,8 @@
 Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
 
 // ===================== WIFI & NTP SETUP =====================
-const char* ssid     = "Antonelli";   // <-- CHANGE THIS
-const char* password = "maomao1206";   // <-- CHANGE THIS
+const char* ssid     = "YOUR_SSID";   // <-- CHANGE THIS
+const char* password = "YOUR_PASSWORD";   // <-- CHANGE THIS
 
 WiFiUDP ntpUDP;
 // Cape Town uses SAST (UTC+2) with no daylight saving
